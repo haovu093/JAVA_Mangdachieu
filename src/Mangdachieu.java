@@ -47,15 +47,20 @@ public class Mangdachieu {
     void sapxep(int[][] arr) {
         int temp = arr[0][0];
         System.out.println("Các phần tử ở hàng 2: ");
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if (i == 1) {
-                    System.out.print(arr[i][j] + "\t");
-
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+              if(arr[1][i]>arr[1][j]){
+                  temp= arr[1][i];
+                  arr[1][i]=arr[1][j];
+                  arr[1][j]=temp;
+              }
+//                System.out.println(arr[1][i]);
                 }
+
             }
+
         }
     }
-}
+
 
 
