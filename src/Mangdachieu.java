@@ -29,6 +29,8 @@ public class Mangdachieu {
             }
             System.out.println();
         }
+
+
     }
 
     void timDuongCheo(int[][] arr) {
