@@ -52,30 +52,9 @@ public class Mangmotchieu {
         return true;
     }
 
-    void timSoChan() {
-        Scanner sc = new Scanner(System.in);
-        int n;
-        System.out.println("Nhập vào n:");
-        n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            System.out.println("Nhập phẩn tử: ");
-            arr[i] = sc.nextInt();
-
-
-        }
-    }
-
-   boolean soChan(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2==0) {
-                return true;
-            }
-        }
-        return false;
-
-    }
 }
+
+
 
 
 
