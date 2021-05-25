@@ -19,7 +19,7 @@ public class HinhCN {
             for (int j = 1; j <= width; j++) {
                 System.out.print("*  ");
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }
